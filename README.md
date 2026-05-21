@@ -25,10 +25,9 @@ This series starts from that decision-making layer. Before going deep into imple
 
 > **Prefer to Clone Locally?**
 >
-> This repository may include many language translations over time, which can significantly increase the download size. To clone without translations, use sparse checkout:
+> This repository includes 50+ language translations which significantly increases the download size. To clone without translations, use sparse checkout:
 >
 > **Bash / macOS / Linux:**
->
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/skytin1004/teach-ai-to-answer-documents.git
 > cd teach-ai-to-answer-documents
@@ -36,12 +35,11 @@ This series starts from that decision-making layer. Before going deep into imple
 > ```
 >
 > **CMD (Windows):**
->
 > ```cmd
 > git clone --filter=blob:none --sparse https://github.com/skytin1004/teach-ai-to-answer-documents.git
 > cd teach-ai-to-answer-documents
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> This gives you the main articles with a faster download.
+> This gives you everything you need to complete the course with a much faster download.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
