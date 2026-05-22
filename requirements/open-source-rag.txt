@@ -1,0 +1,7 @@
+qdrant-client
+fastembed
+python-dotenv
+nbclient
+nbformat
+ipykernel
+numpy

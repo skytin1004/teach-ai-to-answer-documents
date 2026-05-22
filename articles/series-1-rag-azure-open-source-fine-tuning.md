@@ -3,6 +3,8 @@
 
 > The first article in a 2026 series revisiting my 2023 Azure AI Search + Azure OpenAI document QA tutorials.
 
+Series navigation: [Repository home](../README.md) | Next: [Series 2 - Build a Local Open-Source RAG System End to End](./series-2-open-source-rag-end-to-end.md)
+
 ## 1. Intro - Revisiting an Earlier RAG Tutorial
 
 In 2023, I worked on a pair of tutorials about teaching ChatGPT to answer questions from PDF documents using Azure AI Search and Azure OpenAI. I wrote the [LangChain version](https://techcommunity.microsoft.com/blog/educatordeveloperblog/teach-chatgpt-to-answer-questions-using-azure-ai-search--azure-openai-lang-chain/3969713), and I also co-authored the companion [Semantic Kernel version](https://techcommunity.microsoft.com/blog/educatordeveloperblog/teach-chatgpt-to-answer-questions-using-azure-ai-search--azure-openai-semantic-k/3985395) with [Lee Stott](https://developer.microsoft.com/en-us/advocates/lee-stott), a Principal Cloud Advocate Manager at Microsoft. At the time, the idea of "ChatGPT on your data" still felt new for many developers. The tutorials used Azure Blob Storage, Azure AI Search, Azure OpenAI, LangChain, Semantic Kernel, and FAISS-style vector retrieval to answer questions from PDF files.
@@ -161,7 +163,7 @@ This article is the decision-making layer. Before writing code, I wanted to make
 
 Before moving into implementation, I want to leave one point here: in many enterprise AI systems, the model is only one component. Retrieval quality, orchestration, evaluation, permissions, and operational reliability are often what determine whether the system succeeds beyond the demo stage.
 
-In the next parts of this series, I plan to go deeper into the practical side of document-grounded AI systems: how to build an Azure-based architecture, how open-source alternatives compare in practice, and how to evaluate whether a RAG system is actually working.
+In the next parts of this series, I plan to go deeper into the practical side of document-grounded AI systems: first building a local open-source RAG workflow, then rebuilding the same scenario with Azure AI Search and Azure OpenAI, and then evaluating whether the system is actually working.
 
 I may adjust the order as the series develops, but the goal will stay the same: to move beyond a simple demo and show how to think about RAG systems that can be maintained, evaluated, and operated.
 
@@ -200,3 +202,5 @@ Open-source:
 - [BGE embedding models](https://huggingface.co/BAAI/bge-large-en-v1.5)
 - [E5 embedding models](https://huggingface.co/intfloat/e5-large-v2)
 - [Instructor embedding models](https://huggingface.co/hkunlp/instructor-large)
+
+Next: [Series 2 - Build a Local Open-Source RAG System End to End](./series-2-open-source-rag-end-to-end.md)

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Local open-source RAG tutorial pipeline</title>
+  <desc id="desc">An end-to-end local RAG workflow with Markdown documents, chunking, local embeddings, Qdrant vector storage, retrieval, reranking, and Ollama generation.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#091827"/>
+      <stop offset=".55" stop-color="#102d45"/>
+      <stop offset="1" stop-color="#0c3a3b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf6ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="14" flood-color="#2bd6c4" flood-opacity=".35"/>
+    </filter>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity=".22"/>
+    </filter>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8fcfe5"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <g opacity=".18" stroke="#9bd7ea" stroke-width="1">
+    <path d="M0 170 H1600"/>
+    <path d="M0 310 H1600"/>
+    <path d="M0 450 H1600"/>
+    <path d="M0 590 H1600"/>
+    <path d="M0 730 H1600"/>
+    <path d="M160 0 V900"/>
+    <path d="M320 0 V900"/>
+    <path d="M480 0 V900"/>
+    <path d="M640 0 V900"/>
+    <path d="M800 0 V900"/>
+    <path d="M960 0 V900"/>
+    <path d="M1120 0 V900"/>
+    <path d="M1280 0 V900"/>
+    <path d="M1440 0 V900"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="88" y="96" font-size="44" font-weight="750" fill="#ffffff">Series 2: Local Open-Source RAG</text>
+    <text x="90" y="140" font-size="22" fill="#b7d8e5">Markdown → chunks → embeddings → Qdrant → reranking → grounded answer</text>
+  </g>
+
+  <g filter="url(#shadow2)">
+    <rect x="85" y="250" width="235" height="260" rx="18" fill="url(#panel)"/>
+    <rect x="115" y="290" width="170" height="38" rx="8" fill="#123653"/>
+    <path d="M120 365 H280 M120 398 H250 M120 431 H270" stroke="#62a9c9" stroke-width="10" stroke-linecap="round"/>
+    <rect x="126" y="455" width="116" height="26" rx="13" fill="#dff7ef"/>
+    <text x="116" y="560" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#d5edf6">Local docs</text>
+  </g>
+
+  <path d="M335 380 H430" stroke="#8fcfe5" stroke-width="4" marker-end="url(#arrow2)"/>
+
+  <g filter="url(#shadow2)">
+    <rect x="455" y="235" width="245" height="290" rx="18" fill="#ffffff"/>
+    <g fill="#e9f7ff" stroke="#3996c7" stroke-width="2">
+      <rect x="492" y="275" width="160" height="48" rx="8"/>
+      <rect x="492" y="345" width="160" height="48" rx="8"/>
+      <rect x="492" y="415" width="160" height="48" rx="8"/>
+    </g>
+    <path d="M516 300 H628 M516 370 H632 M516 440 H616" stroke="#216383" stroke-width="7" stroke-linecap="round"/>
+    <text x="502" y="575" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#d5edf6">Chunk by headings</text>
+  </g>
+
+  <path d="M715 380 H810" stroke="#8fcfe5" stroke-width="4" marker-end="url(#arrow2)"/>
+
+  <g filter="url(#glow)">
+    <rect x="835" y="235" width="260" height="290" rx="18" fill="#102f47" stroke="#3ac7c1" stroke-width="2"/>
+    <g stroke="#2bd6c4" stroke-width="3" opacity=".9">
+      <path d="M900 348 L960 303 L1030 342 L990 413 L910 400 Z" fill="none"/>
+      <path d="M900 348 L990 413 M960 303 L990 413 M1030 342 L910 400"/>
+    </g>
+    <g fill="#eafffb">
+      <circle cx="900" cy="348" r="9"/>
+      <circle cx="960" cy="303" r="9"/>
+      <circle cx="1030" cy="342" r="9"/>
+      <circle cx="990" cy="413" r="9"/>
+      <circle cx="910" cy="400" r="9"/>
+    </g>
+    <rect x="890" y="456" width="150" height="28" rx="14" fill="#174b62"/>
+    <text x="876" y="575" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#d5edf6">Local embeddings</text>
+  </g>
+
+  <path d="M1110 380 H1190" stroke="#8fcfe5" stroke-width="4" marker-end="url(#arrow2)"/>
+
+  <g filter="url(#shadow2)">
+    <rect x="1210" y="230" width="275" height="300" rx="18" fill="#ffffff"/>
+    <ellipse cx="1348" cy="292" rx="96" ry="30" fill="#dff4ff" stroke="#2484b4" stroke-width="3"/>
+    <path d="M1252 292 V430 C1252 447 1295 462 1348 462 C1401 462 1444 447 1444 430 V292" fill="#f6fcff" stroke="#2484b4" stroke-width="3"/>
+    <ellipse cx="1348" cy="430" rx="96" ry="30" fill="#e3f8ed" stroke="#2484b4" stroke-width="3"/>
+    <g fill="#1db886">
+      <circle cx="1305" cy="344" r="6"/>
+      <circle cx="1348" cy="328" r="6"/>
+      <circle cx="1394" cy="365" r="6"/>
+      <circle cx="1325" cy="404" r="6"/>
+      <circle cx="1380" cy="413" r="6"/>
+    </g>
+    <text x="1244" y="575" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#d5edf6">Vector store + payload</text>
+  </g>
+
+  <g filter="url(#shadow2)">
+    <rect x="500" y="665" width="610" height="105" rx="22" fill="#ffffff"/>
+    <path d="M548 705 H1018 M548 738 H880" stroke="#6aa9c8" stroke-width="10" stroke-linecap="round"/>
+    <rect x="920" y="723" width="70" height="28" rx="14" fill="#dff7ef"/>
+    <rect x="1000" y="723" width="70" height="28" rx="14" fill="#e5f0ff"/>
+    <text x="550" y="825" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#d5edf6">Grounded answer with source references</text>
+  </g>
+
+  <path d="M1350 545 C1350 650 1110 655 1060 690" stroke="#8fcfe5" stroke-width="4" fill="none" marker-end="url(#arrow2)"/>
+  <path d="M805 650 C805 610 935 610 965 545" stroke="#8fcfe5" stroke-width="4" fill="none" marker-end="url(#arrow2)"/>
+
+  <g filter="url(#shadow2)">
+    <rect x="1150" y="650" width="255" height="125" rx="18" fill="#0d2438" stroke="#2bd6c4" stroke-width="2"/>
+    <rect x="1180" y="682" width="195" height="16" rx="8" fill="#5bbdd7"/>
+    <rect x="1180" y="715" width="150" height="16" rx="8" fill="#99dfc6"/>
+    <rect x="1180" y="748" width="105" height="16" rx="8" fill="#6faecc"/>
+    <text x="1172" y="825" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#d5edf6">Optional local LLM</text>
+  </g>
+</svg>

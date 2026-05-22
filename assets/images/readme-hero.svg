@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Document-grounded AI RAG system overview</title>
+  <desc id="desc">A clean architecture illustration showing documents, retrieval, vector search, and a grounded AI answer with citations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#e9f4ff"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2742"/>
+      <stop offset="1" stop-color="#164b6f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12324f" flood-opacity=".16"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4f6f88"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 760 C260 690 370 830 610 760 C830 696 1030 714 1220 770 C1390 820 1508 770 1600 735 L1600 900 L0 900 Z" fill="#d7ecfa"/>
+
+  <g opacity=".24" stroke="#8bb8d5" stroke-width="1">
+    <path d="M110 150 H1490"/>
+    <path d="M110 250 H1490"/>
+    <path d="M110 350 H1490"/>
+    <path d="M110 450 H1490"/>
+    <path d="M110 550 H1490"/>
+    <path d="M110 650 H1490"/>
+    <path d="M210 90 V760"/>
+    <path d="M410 90 V760"/>
+    <path d="M610 90 V760"/>
+    <path d="M810 90 V760"/>
+    <path d="M1010 90 V760"/>
+    <path d="M1210 90 V760"/>
+    <path d="M1410 90 V760"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="95" y="95" font-size="46" font-weight="700" fill="#0f2742">Teach AI to Answer from Your Documents</text>
+    <text x="98" y="140" font-size="22" fill="#48657b">Retrieval, grounding, citations, and architecture choices for practical RAG systems</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="250" width="260" height="270" rx="18" fill="#ffffff"/>
+    <rect x="125" y="220" width="154" height="205" rx="12" fill="#dff1ff" stroke="#5aa7d7"/>
+    <rect x="150" y="245" width="154" height="205" rx="12" fill="#f7fcff" stroke="#328ac2"/>
+    <path d="M180 298 H274 M180 332 H274 M180 366 H248" stroke="#6faecc" stroke-width="12" stroke-linecap="round"/>
+    <rect x="132" y="460" width="190" height="28" rx="14" fill="#e5f5ee"/>
+    <text x="155" y="482" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#135c49">Documents</text>
+  </g>
+
+  <path d="M375 382 C430 382 442 382 500 382" stroke="#4f6f88" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="520" y="215" width="305" height="335" rx="20" fill="#ffffff"/>
+    <rect x="575" y="255" width="196" height="52" rx="10" fill="#173d5d"/>
+    <circle cx="600" cy="357" r="15" fill="#1bbf89"/>
+    <circle cx="674" cy="357" r="15" fill="#23a3dd"/>
+    <circle cx="748" cy="357" r="15" fill="#81b29a"/>
+    <path d="M615 357 H659 M689 357 H733 M600 372 C616 425 724 426 748 372" stroke="#6faecc" stroke-width="5" fill="none"/>
+    <rect x="573" y="450" width="200" height="32" rx="16" fill="#e8f2fb"/>
+    <text x="606" y="473" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#164b6f">Search Index</text>
+  </g>
+
+  <path d="M845 382 C905 382 920 382 980 382" stroke="#4f6f88" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="1005" y="215" width="250" height="335" rx="20" fill="#ffffff"/>
+    <ellipse cx="1130" cy="275" rx="112" ry="34" fill="#dff1ff" stroke="#2f8fc7" stroke-width="3"/>
+    <path d="M1018 275 V435 C1018 454 1068 470 1130 470 C1192 470 1242 454 1242 435 V275" fill="#f5fbff" stroke="#2f8fc7" stroke-width="3"/>
+    <ellipse cx="1130" cy="435" rx="112" ry="34" fill="#e8f7f0" stroke="#2f8fc7" stroke-width="3"/>
+    <g fill="#1bbf89">
+      <circle cx="1084" cy="338" r="7"/>
+      <circle cx="1130" cy="318" r="7"/>
+      <circle cx="1175" cy="357" r="7"/>
+      <circle cx="1098" cy="394" r="7"/>
+      <circle cx="1160" cy="410" r="7"/>
+    </g>
+    <text x="1130" y="520" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#164b6f">Vectors + Metadata</text>
+  </g>
+
+  <path d="M1277 382 C1305 382 1315 382 1335 382" stroke="#4f6f88" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="1318" y="220" width="232" height="365" rx="24" fill="#ffffff"/>
+    <rect x="1364" y="258" width="140" height="152" rx="26" fill="url(#navy)"/>
+    <rect x="1388" y="292" width="92" height="62" rx="16" fill="#dff1ff"/>
+    <circle cx="1415" cy="323" r="8" fill="#1bbf89"/>
+    <circle cx="1453" cy="323" r="8" fill="#1bbf89"/>
+    <rect x="1344" y="438" width="180" height="86" rx="18" fill="#f7fcff" stroke="#d4e8f5"/>
+    <path d="M1370 468 H1494 M1370 494 H1458" stroke="#7faac2" stroke-width="8" stroke-linecap="round"/>
+    <rect x="1370" y="508" width="54" height="20" rx="10" fill="#e5f5ee"/>
+    <rect x="1434" y="508" width="54" height="20" rx="10" fill="#e8f2fb"/>
+    <text x="1350" y="562" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" fill="#164b6f">Grounded answer</text>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" fill="#48657b">
+    <text x="150" y="575">Ingest</text>
+    <text x="610" y="605">Retrieve</text>
+    <text x="1130" y="605" text-anchor="middle">Evidence</text>
+  </g>
+</svg>
