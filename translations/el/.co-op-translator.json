@@ -1,0 +1,98 @@
+{
+  "CHANGELOG.md": {
+    "original_hash": "b46fe3b7fb1c386ea17a98e960fb4aef",
+    "translation_date": "2026-05-22T11:39:46+00:00",
+    "source_file": "CHANGELOG.md",
+    "language_code": "el"
+  },
+  "CONTRIBUTING.md": {
+    "original_hash": "f9e7b1b80ce9fc29d07f2778e71d3b39",
+    "translation_date": "2026-05-22T11:35:13+00:00",
+    "source_file": "CONTRIBUTING.md",
+    "language_code": "el"
+  },
+  "PUBLISHING_CHECKLIST.md": {
+    "original_hash": "97a27dbf39bcfc2d46714d3a60526350",
+    "translation_date": "2026-05-22T11:35:43+00:00",
+    "source_file": "PUBLISHING_CHECKLIST.md",
+    "language_code": "el"
+  },
+  "README.md": {
+    "original_hash": "6a2e03e7c95279dc98bf6f393e23f2f8",
+    "translation_date": "2026-05-22T11:38:07+00:00",
+    "source_file": "README.md",
+    "language_code": "el"
+  },
+  "SERIES_PLAN.md": {
+    "original_hash": "242091ba415656080e2e0255e15e4120",
+    "translation_date": "2026-05-22T11:39:16+00:00",
+    "source_file": "SERIES_PLAN.md",
+    "language_code": "el"
+  },
+  "articles/README.md": {
+    "original_hash": "a2a6e63079ed009eeffcf8403b35c304",
+    "translation_date": "2026-05-22T11:44:16+00:00",
+    "source_file": "articles/README.md",
+    "language_code": "el"
+  },
+  "articles/series-1-rag-azure-open-source-fine-tuning.md": {
+    "original_hash": "eab426cfbfa2e983ad80cd93920b92c3",
+    "translation_date": "2026-05-22T11:48:38+00:00",
+    "source_file": "articles/series-1-rag-azure-open-source-fine-tuning.md",
+    "language_code": "el"
+  },
+  "articles/series-2-open-source-rag-end-to-end.md": {
+    "original_hash": "6d9ea8444b986dbe582b09f32627944d",
+    "translation_date": "2026-05-22T11:44:03+00:00",
+    "source_file": "articles/series-2-open-source-rag-end-to-end.md",
+    "language_code": "el"
+  },
+  "assets/README.md": {
+    "original_hash": "6feca47d30aca0cc7db153ae3545260d",
+    "translation_date": "2026-05-22T11:49:04+00:00",
+    "source_file": "assets/README.md",
+    "language_code": "el"
+  },
+  "notebooks/README.md": {
+    "original_hash": "3ddd763e5339c412af2744b3ca8d434c",
+    "translation_date": "2026-05-22T11:50:11+00:00",
+    "source_file": "notebooks/README.md",
+    "language_code": "el"
+  },
+  "notebooks/series-2-open-source-rag.ipynb": {
+    "original_hash": "1b3f6f022e50707625afc09dbe0349f9",
+    "translation_date": "2026-05-22T11:50:49+00:00",
+    "source_file": "notebooks/series-2-open-source-rag.ipynb",
+    "language_code": "el"
+  },
+  "requirements/README.md": {
+    "original_hash": "1d317bb91eb937b008fc90cc43c2af24",
+    "translation_date": "2026-05-22T11:48:54+00:00",
+    "source_file": "requirements/README.md",
+    "language_code": "el"
+  },
+  "sample_data/README.md": {
+    "original_hash": "2f04feb6e716751a441f8494cc77bc2d",
+    "translation_date": "2026-05-22T11:49:55+00:00",
+    "source_file": "sample_data/README.md",
+    "language_code": "el"
+  },
+  "sample_data/course_ai_guidance.md": {
+    "original_hash": "a09c95a2398aa3a846db95099a27d196",
+    "translation_date": "2026-05-22T11:49:21+00:00",
+    "source_file": "sample_data/course_ai_guidance.md",
+    "language_code": "el"
+  },
+  "sample_data/school_ai_policy.md": {
+    "original_hash": "27dc2c4486f9db0c4eeea592abd104b1",
+    "translation_date": "2026-05-22T11:49:43+00:00",
+    "source_file": "sample_data/school_ai_policy.md",
+    "language_code": "el"
+  },
+  "scripts/README.md": {
+    "original_hash": "80859d2c82cd17d8e2d2ea7fbb6dc68d",
+    "translation_date": "2026-05-22T11:50:21+00:00",
+    "source_file": "scripts/README.md",
+    "language_code": "el"
+  }
+}
